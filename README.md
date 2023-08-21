@@ -1,4 +1,4 @@
-#WiseWorldGuides: Explore, Mark, and Share the Globe
+WiseWorldGuides: Explore, Mark, and Share the Globe
 
 Welcome to WiseWorldGuides, your passport to an interactive and informative global experience. Embark on a journey that transcends borders and connects cultures as you explore the world through a digital lens. Whether you're a globetrotter, a curious learner, or a location enthusiast, WiseWorldGuides empowers you to curate your own digital atlas.
 
