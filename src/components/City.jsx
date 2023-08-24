@@ -18,7 +18,7 @@ function City() {
     cityName: "Lisbon",
     emoji: "🇵🇹",
     date: "2027-10-31T15:59:59.138Z",
-    notes: "My favorite city so far!",
+    notes: "My favorite city so far :)!",
   };
 
   const { cityName, emoji, date, notes } = currentCity;
