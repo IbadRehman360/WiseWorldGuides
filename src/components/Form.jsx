@@ -1,8 +1,9 @@
-// "https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=0&longitude=0"
-
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import BackButton from "./BackButton";
+import { useUrlPosition } from "../hooks/useUrlPosition";
 import styles from "./Form.module.css";
+import Message from "./Message";
+import Spinner from "./Spinner";
 // import Button from "./Button";
 export function convertToEmoji(countryCode) {
   const codePoints = countryCode
@@ -11,13 +12,41 @@ export function convertToEmoji(countryCode) {
     .map((char) => 127397 + char.charCodeAt());
   return String.fromCodePoint(...codePoints);
 }
+const baseUrl = "https://api.bigdatacloud.net/data/reverse-geocode-client";
 
 function Form() {
+  const [isLoadingGeoCoding, setIsLoadingGeoCoding] = useState(false);
   const [cityName, setCityName] = useState("");
   const [country, setCountry] = useState("");
   const [date, setDate] = useState(new Date());
   const [notes, setNotes] = useState("");
-
+  const [lat, lng] = useUrlPosition();
+  const [isGeoCodingError, setGeoCodingError] = useState();
+  useEffect(() => {
+    async function retriveData() {
+      try {
+        setIsLoadingGeoCoding(true);
+        setGeoCodingError("");
+        const res = await fetch(`${baseUrl}?latitude=${lat}&longitude=${lng}`);
+        const data = await res.json();
+        if (!data.countryCode)
+          throw new Error(
+            "Invalid, doesn't seem to be a valid location, city is not found, click somewhere else..."
+          );
+        setCityName(data.city);
+        setCountry(data.country);
+        console.log(data);
+      } catch (err) {
+        console.log(err.message);
+        setGeoCodingError(err.message);
+      } finally {
+        setIsLoadingGeoCoding(false);
+      }
+    }
+    retriveData();
+  }, [lat, lng]);
+  if (isGeoCodingError) return <Message message={isGeoCodingError} />;
+  if (isLoadingGeoCoding) return <Spinner />;
   return (
     <form className={styles.form}>
       <div className={styles.row}>
