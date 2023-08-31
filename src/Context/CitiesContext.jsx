@@ -4,7 +4,7 @@ const CitiesContext = createContext();
 const BaseURL = "http://localhost:8000";
 
 function CitiesProvider({ children }) {
-  const [cities, setCities] = useState({});
+  const [cities, setCities] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [currentCity, setCurrentCity] = useState({});
   useEffect(() => {
