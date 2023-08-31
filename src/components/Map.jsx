@@ -20,7 +20,7 @@ function Map() {
   const mapLng = searchParams.get("lng");
   const {
     isLoading: isLoadingPostion,
-    position: isGetPostion,
+    position: geoLocationPostion,
     getPosition,
   } = useGeolocation();
 
@@ -29,15 +29,16 @@ function Map() {
   }, [mapLat, mapLng]);
 
   useEffect(() => {
-    if (!useGeolocation) return isLoadingPostion;
-
-    setMapPostion([isGetPostion.lat, isGetPostion.lng]);
-  }, [isGetPostion.lat, isGetPostion.lng, isLoadingPostion]);
+    if (geoLocationPostion)
+      setMapPostion([geoLocationPostion.lat, geoLocationPostion.lng]);
+  }, [geoLocationPostion]);
   return (
     <div className={styles.mapContainer}>
-      <Button type="position" onClick={getPosition}>
-        {isLoadingPostion ? "Loading..." : "Use your location"}
-      </Button>
+      {!geoLocationPostion && (
+        <Button type="position" onClick={getPosition}>
+          {isLoadingPostion ? "Loading..." : "Use your location"}
+        </Button>
+      )}
       <MapContainer
         center={mapPostion}
         className={styles.mapContainer}
