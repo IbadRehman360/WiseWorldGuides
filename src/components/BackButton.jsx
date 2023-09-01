@@ -6,7 +6,6 @@ function BackButton() {
   const navigate = useNavigate();
   return (
     <div className={styles.buttons}>
-      <Button type="primary">Add</Button>
       <Button
         type="back"
         onClick={(e) => {

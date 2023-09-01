@@ -1,40 +1,76 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇩🇪",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
+      "cityName": "Castello de la Plana",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "My favorite city so far!",
+      "date": "2023-08-31T23:39:14.341Z",
+      "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "40.013022254814686",
+        "lng": "-0.047202745563146305"
       },
-      "id": 17806751
+      "id": 984431981
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Costur",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-01T11:20:33.835Z",
+      "notes": "NIgga",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "40.12219064672338",
+        "lng": "-0.18537088873567642"
       },
-      "id": 984431973
+      "id": 984431982
+    },
+    {
+      "cityName": "Peralta",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-01T11:21:06.378Z",
+      "notes": "",
+      "position": {
+        "lat": "42.374778361114195",
+        "lng": "-1.856267226832731"
+      },
+      "id": 984431983
+    },
+    {
+      "cityName": "Benissa",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-01T12:50:56.054Z",
+      "notes": "sd",
+      "position": {
+        "lat": "38.74252938774558",
+        "lng": "0.05347698760839849"
+      },
+      "id": 984431984
+    },
+    {
+      "cityName": "Costur",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-01T12:52:04.812Z",
+      "notes": "",
+      "position": {
+        "lat": "40.11221380317288",
+        "lng": "-0.18194852975450762"
+      },
+      "id": 984431985
+    },
+    {
+      "cityName": "Villahermosa del Rio",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-01T12:52:07.445Z",
+      "notes": "",
+      "position": {
+        "lat": "40.22082296334168",
+        "lng": "-0.3748624697122405"
+      },
+      "id": 984431986
     }
   ]
 }
