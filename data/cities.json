@@ -1,40 +1,124 @@
 {
   "cities": [
     {
-      "cityName": "Villahermosa del Rio",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-09-01T12:52:07.445Z",
-      "notes": "",
-      "position": {
-        "lat": "40.22082296334168",
-        "lng": "-0.3748624697122405"
-      },
-      "id": 984431986
-    },
-    {
       "cityName": "Castello de la Plana",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2023-09-01T15:45:59.746Z",
+      "date": "2023-09-10T01:41:39.893Z",
       "notes": "",
       "position": {
-        "lat": "40.013153729849954",
-        "lng": "-0.0324361256029615"
+        "lat": "40.00028974272677",
+        "lng": "-0.04289961738164428"
       },
-      "id": 984431991
+      "id": 1
     },
     {
-      "cityName": "Castello de la Plana",
+      "cityName": "Borriol",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2023-09-01T16:49:13.827Z",
+      "date": "2023-09-10T01:43:01.149Z",
       "notes": "",
       "position": {
-        "lat": "40.006974129414196",
-        "lng": "0.004309962553930014"
+        "lat": "40.022368705717916",
+        "lng": "-0.10556455250079647"
       },
-      "id": 984431992
+      "id": 2
+    },
+    {
+      "cityName": "l'Alcora",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-10T01:43:07.087Z",
+      "notes": "",
+      "position": {
+        "lat": "40.06191835633492",
+        "lng": "-0.17182740211910022"
+      },
+      "id": 3
+    },
+    {
+      "cityName": "Borriol",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-10T01:43:12.554Z",
+      "notes": "",
+      "position": {
+        "lat": "40.04233870991788",
+        "lng": "-0.10367546119914862"
+      },
+      "id": 4
+    },
+    {
+      "cityName": "San Juan de Moro",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-10T01:43:14.394Z",
+      "notes": "",
+      "position": {
+        "lat": "40.07597715712393",
+        "lng": "-0.14761350249860694"
+      },
+      "id": 5
+    },
+    {
+      "cityName": "Vilafames",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-10T01:43:16.058Z",
+      "notes": "",
+      "position": {
+        "lat": "40.08032432562182",
+        "lng": "-0.09710424991623558"
+      },
+      "id": 6
+    },
+    {
+      "cityName": "San Juan de Moro",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-10T01:43:18.117Z",
+      "notes": "",
+      "position": {
+        "lat": "40.078882002847415",
+        "lng": "-0.08750887143675891"
+      },
+      "id": 7
+    },
+    {
+      "cityName": "San Juan de Moro",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-10T01:43:23.376Z",
+      "notes": "",
+      "position": {
+        "lat": "40.07888064345601",
+        "lng": "-0.08631176774944074"
+      },
+      "id": 8
+    },
+    {
+      "cityName": "Vilafames",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-10T01:43:29.347Z",
+      "notes": "",
+      "position": {
+        "lat": "40.0898441755042",
+        "lng": "-0.0593434723556241"
+      },
+      "id": 9
+    },
+    {
+      "cityName": "l'Alcora",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-10T01:43:46.487Z",
+      "notes": "",
+      "position": {
+        "lat": "40.10184608543888",
+        "lng": "-0.22662829141201882"
+      },
+      "id": 10
     }
   ]
 }
